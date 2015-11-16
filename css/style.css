@@ -316,7 +316,10 @@ header .hero {
    display: block;
  }
 
- @media (min-width: 992px){
+ 
+
+/* Media */
+  @media (min-width: 992px){
    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
@@ -333,12 +336,6 @@ header .hero {
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
- }
-
-/* Media */
-
- 
- @media (min-width: 992px) {
    .container {
      width: 970px;
    }
@@ -352,6 +349,7 @@ header .hero {
      width:21%;
    }
  }
+
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
