@@ -118,6 +118,11 @@ header .hero img {
 }
 
 /* DASHBOARD */
+.active{
+	background-color:#22303E;
+	padding:3px;
+	border-radius:2px;
+}
 .dashboard {
 	background:#F7F7F7;
 }
