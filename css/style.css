@@ -18,11 +18,6 @@ html, body{
 	line-height: 19px;
 	font-weight: 100;
  }
- 
- .logo{
-	width:60px;
-	height:50px
- }
 
 /* GRID */
  .container {
@@ -46,6 +41,11 @@ html, body{
 	position:relative;
 	min-height: 1px;
 	margin:0 2% 20px;
+ }
+ .final-call-to-action{
+	 text-align:center;
+	 margin-bottom:40px;
+	 margin-top:-80px;
  }
  
 /* HEADER */
@@ -514,29 +514,58 @@ footer .logo{
 }
 
 /************************************************************/
-@media (min-width: 330px){
-	.container {
-		width: 600px;
+@media (min-width: 100px){
+	.hero{
+		margin:-100px;
 	}
-	.one-third {
-		width:29%;
+	.dashboardImage{width:200;height:120px;}
+	header .hero h1 {
+		font-size:medium;
+		line-height: 50px;
 	}
+	header .hero p{
+		font-size:small;
+	}
+	.one-half{
+		width:auto;
+		float:left;
+	}
+	header .container .one-half ul li  {
+		font-size:small;
+	}
+	.pricing .container{width:75%;}
 	
-	h3, h4 {
-		font-size: 10px;
-		line-height: 20px;
-	}
-	span {
-		font-size: 5px;
-		line-height: 20px;
-	}
-	.one-half{width:45%;}
-	footer .logo{
-		padding: 0.8em 0 1em 3em;
+	.logo{
+		width:40px;
+		height:30px;
 	}
 }
 
-@media (min-width: 992px){
+@media (min-width: 690px){
+	.dashboardImage{width:700;height:450px;}
+}
+
+@media (min-width: 1200px){
+	.logo{width:60px;height:50px;}
+	
+	
+	.hero{
+		margin:0px;
+	}
+	header .hero h1 {
+		font-size:48px;
+		line-height: 50px;
+	}
+	header .hero p{
+		font-size:large;
+	}
+	.one-half{
+		width:46%;
+	}
+	header .container .one-half ul li  {
+		font-size:large;
+	}
+	
 	footer{
 		background-color: #3498DB;
 		background-image: linear-gradient(to left,
@@ -554,7 +583,7 @@ footer .logo{
 		padding: 2em 0 2em 1.5em;
 	}
 	.container {
-		width: 970px;
+		width: 1100px;
 	}
 	.one-half {
 		width:46%;
@@ -564,12 +593,6 @@ footer .logo{
 	}
 	.one-fourth {
 		width:21%;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
 	}
 }
  
