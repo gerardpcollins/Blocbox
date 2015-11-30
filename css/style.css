@@ -585,6 +585,13 @@ footer .logo{
 
 @media (min-width: 690px){
 	.dashboardImage{width:700;height:450px;}
+	header .hero h1 {
+		font-size:36px;
+		line-height: 50px;
+	}
+	header .hero p{
+		font-size:medium;
+	}
 }
 
 @media (min-width:992px) {
